@@ -3,12 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ABOUT ME!</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #ffe2ef; 
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: rgb(75, 75, 75); 
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            font-size: 18px;
+        }
+        
+        header {
+            background-color: #333; 
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        h1 {
+            margin: 0;
+            font-family: 'Lora', serif;
+        }
+        
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px; 
+        }
+        
+        .profile {
+            border-radius: 50%;
+            margin-bottom: .5rem; 
+            width: 200px;
+            height: 200px; 
+            object-fit: cover; 
+        }
+        
+        section {
+            background-color: #ffffff; 
+            padding: 2rem;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            text-align: justify;
+        }
+        
+        section h2 {
+            border-bottom: 2px solid #f4a8b1; 
+            padding-bottom: .5rem;
+            margin-bottom: 1.5rem;
+            color: #f4a8b1;
+            font-family: 'Lora', serif;
+        }
+        
+        footer {
+            background-color: #333; 
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            width: 100%;
+        }
+        
+        footer p {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>
-        ABOUT ME!
-    </h1>
-    <!--- add your portfolio here-->
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <main>
+        <section id="AboutMe">
+            <h2>About Me</h2>
+            <p>Hi! I'm Ken Jonas Baltazar, I am currently pursuing a Bachelor of Science in Information Technology at the University of the Immaculate Conception. I am now in my second year.</p>
+        </section>
+
+        <section id="Favorites">
+            <h2>Favorites</h2>
+            <p> Playing Basketball, doing chores at home and practicing Codes sometimes, I do hope to improve in Programming! </p>
+        </section>
+
+        <section id="SchoolProjects">
+            <h2>School Projects</h2>
+            <p> My first school project was in Programming 2, that was making a Point of Sales System, which we were guided by sir Michel Bolo, it was a successful and for me my biggest School Project so far. </p>
+        </section>
+
+        <section id="Talents">
+            <h2>Talents</h2>  
+            <p> I am sure I excel at playing video games, but still I want to improve and keep on grinding on it. </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Ken Jonas T. Baltazar</p>
+    </footer>
 </body>
 </html>
