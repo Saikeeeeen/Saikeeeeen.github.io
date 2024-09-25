@@ -210,6 +210,15 @@ ul li a:hover{
 
     .action__btns {
         margin: auto;
-        
+    }
+    .normal-button{
+        margin-bottom: 10px;
+        padding: 5px 10px;
+        background-color: var(--extra-light);
+        color: var(--primary-color);
+        border: 1px solid #333;
+        border-radius: 3px;
+        cursor: pointer;
+        text-decoration: none;
     }
 }
