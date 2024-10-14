@@ -1,0 +1,64 @@
+body {
+    background-color: pink;
+}
+
+/* Responsive Grid Media Queries */
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
+    body {
+        background-color: red;
+        transition: background-color 0.5s, color 0.5s;
+    }
+}
+ 
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    body {
+        background-color: green;
+        transition: background-color 0.5s, color 0.5s;
+    }
+}
+ 
+@media all and (min-width: 480px) and (max-width: 768px) { 
+    body {
+        background-color: blue;
+        transition: background-color 0.5s, color 0.5s;
+    }
+}
+ 
+@media all and (max-width: 480px) { 
+    body {
+        background-color: yellow;
+        transition: background-color 0.5s, color 0.5s;
+    }
+}
+
+.profile-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 480px) { 
+    .profile-image {
+        display: none;
+    }
+}
+
+/* Go Back Button Styles */
+button, .go-back-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s;
+}
+
+button:hover, .go-back-button:hover {
+    background-color: #fd4766; /* Change color on hover */
+}
