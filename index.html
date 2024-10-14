@@ -4,71 +4,216 @@
     <meta charset="UTP-8">
     <meta http-equiv="X-UA-Compatible" content="IE">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
     <title>Personal Portfolio</title>
 </head>
 <body>
-    <nav><div class="nav__content">
-        <div class="logo"><a href="#">Ken</a></div>
-        <label for="check" class="Checkbox">
-            <i class="ri-menu-line"></i>
-        </label>
-        <input type="checkbox" name="check" id="check">
-    </div>
+    <nav>
+        <div class="container nav-container">
+            <a href="" class="logo">Ken</a>
+            <ul class="nav-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experiences">Experience</a></li>
+                <li><a href="#Projects">Project</a></li>
+                <li><a href="#HtmlActivities">HTML Activities</a></li>
+                <li><a href="#Contact" class="btn btn-dark">Contact </a></li>
+            </ul>
+        </div>
     </nav>
-    <section class="section">
-        <div class="section__container">
-            <div class="content">
-                <p class="subtitle">HELLO</p>
-                <h1 class="title">
-                    I'm <span>Ken<br>a</span> Web Developer
-                </h1>
-                <p class="description">
-                    Welcome to my Web Developer Portfolio! I'm Ken, a dedicated and innovative web developer 
-                    who loves designing beautiful, responsive, and user-friendly websites. 
-                    I've been involved in various web projects, including personal blogs 
-                    and e-commerce platforms.
+    <header>
+        <div class="container header-container">
+            <div class="header-left">
+                <img src="Ken-Baltazar.jpg" alt="profile"/>
+            </div>
+            <div class="header-right">
+                <p><b>Hello, I'm</b></p>
+                <h1>Ken</h1>
+                <h2>Frontend Developer</h2>
+                <div class="header-action-aria">
+                    <a href="" class="btn" download="img\CV.png">Download CV</a>
+                    <a href="#Contact" class="btn btn-dark">Contact info</a>
+                </div>
+                <div class="header-social">
+                    <a href="https://saikeeeeen.github.io/"><img src="img/Github.jpg" class="icon1"></a>
+                    <a href="https://www.facebook.com/Saikeeeeen"><img src="img/Facebook.png" class="icon2"></a>
+                </div>
+            </div>
+        </div>
+    </header>   
+<section id="About">
+    <p class="heading-p">Get To Know More!</p>
+    <h1 class="heading">About Me</h1>
+    <div class="container about-container">
+        <div class="about-left">
+            <img src="img/Aboutme.jpg" alt="">
+        </div>
+        <div>
+            <div class="about-right">
+                <div class="edu-box">
+                    <img src="img/Experience.png" class="icon1">
+                    <h4>Experience</h4>
+                    <p>
+                        2023-Present <br>
+                        Project Development Head <br>
+                        PSITS Region XI<br>
+                        Frontend Developer
+                    </p>
+                </div>
+                <div class="edu-box">
+                    <img src="img/Education.png" class="icon1">
+                    <h4>Education</h4>
+                    <p>
+                    2nd Year <br>
+                    B.S in Information Technology
                 </p>
-                <div class="action__btns">
-                    <button class="hire__me">Hire me</button>
-                    <button class="Portfolio">Portfolio</button>
                 </div>
-                <div class = "section favorites">
-                    <h2> My Favorites</h2>
-                    <ul>
-                        <li>Playing Basketball</li>
-                        <li>Playing Online Games</li>
-                        <li>Night Walks</li>
-                    </ul>
+            </div>
+        </div>
+</section>
+<section id="Experiences">
+    <a href="Experiences" class="arrow"><img src="img/Arrow.png" class="icon1"></a>
+    <p class="heading-p">Explore My</p>
+    <h1 class="heading">Experience</h1>
+    <div class="container experience-container">
+        <div class="experience-box">
+            <h2>Favorites</h2>
+            <div class="experience">
+                <div class="ex-div">
+                    <img src="img/Checkmark.webp" class="icon1">
+                    <div>
+                        <h4>Bonding with my Loved Ones</h4>
+                    </div>
                 </div>
-                <div class = "section projects">
-                    <h2>School Projects</h2>
-                    <ul>
-                        <li>ClinLab</li>
-                        <li>Point of Sales System</li>
-                        <li>OxyFier: An Air Quality Detector and Purifier</li>
-                    </ul>
-                    
-                    <div class = "section talents">
-                        <h2>My Talents</h2>
-                        <p>
-                            With a natural flair for basketball, I dominate the court with precision shooting, agile dribbling, and strategic plays
-                            that leave my opponents in awe. When I'm not sinking three-pointers, I immerse myself in the world of Online Gaming, where my quick
-                            reflexes and sharp decision making skills propel me to victory.
-                        </p>
+                <div class="ex-div">
+                    <img src="img/Checkmark.webp" class="icon1">
+                    <div>
+                        <h4>Playing Basketball</h4>
+                    </div>
+                </div>
+                <div class="ex-div">
+                    <img src="img/Checkmark.webp" class="icon1">
+                    <div>
+                        <h4>Playing Online Games</h4>
+                    </div>
+                </div>
+                <div class="ex-div">
+                    <img src="img/Checkmark.webp" class="icon1">
+                    <div>
+                        <h4>Cooking Filipino Adobo</h4>
+                    </div>
+                </div>
+                <div class="ex-div">
+                    <img src="img/Checkmark.webp" class="icon1">
+                    <div>
+                        <h4>Reading Manhwas</h4>
+                    </div>
+                </div>
+                <div class="ex-div">
+                    <img src="img/Checkmark.webp" class="icon1">
+                    <div>
+                        <h4>Watching "FROM" Series</h4>
                     </div>
                 </div>
             </div>
-            <div class="image">
-                <img src="Ken-Baltazar.jpg" alt="profile"/>
+        </div>
+        <div class="experience-box">
+            <h2>Talents</h2>
+            <div class="experience">
+                <div class="ex-div">
+                    <img src="img/Checkmark.webp" class="icon1">
+                    <div>
+                        <h4>Editing Picture</h4>
+                    </div>
+                </div>
+                <div class="ex-div">
+                    <img src="img/Checkmark.webp" class="icon1">
+                    <div>
+                        <h4>Basketball</h4>
+                    </div>
+                </div>
+                <div class="ex-div">
+                    <img src="img/Checkmark.webp" class="icon1">
+                    <div>
+                        <h4>Gaming</h4>
+                    </div>
+                </div>
+                <div class="ex-div">
+                    <img src="img/Checkmark.webp" class="icon1">
+                    <div>
+                        <h4>Cooking</h4>
+                    </div>
+                </div>
+                <div class="ex-div">
+                    <img src="img/Checkmark.webp" class="icon1">
+                    <div>
+                        <h4>Programming</h4>
+                    </div>
+                </div>
+                <div class="ex-div">
+                    <img src="img/Checkmark.webp" class="icon1">
+                    <div>
+                        <h4>Multitasking</h4>
+                    </div>
+                </div>
             </div>
-            <div class="section html-activities">
-            <h2>HTML Activities</h2>
-                 <a href="html\FashionBlog\index.html">Fashion Blog</a>
-                 <a href="OliviaWoodruff\woodruff_portfolio\woodruff_portfolio.html">Woodruff Portfolio</a>
         </div>
+    </div>
+</section>
+<section id="Projects">
+    <a href="Projects" class="arrow"><img src="img/Arrow.png" class="icon1"></a>
+    <p class="heading-p">My Recent</p>
+    <h1 class="heading">Project</h1>
+    <div class="container project-container">
+        <div class="project">
+            <img src="img/POS.jpg" alt="">
+            <h3>Point of Sales System</h3>
+            <p>Point of Sales System is a combination of hardware and software used by businesses to</p>
+            <p>process transactions, track sales, manage inventory, and generate receipts. It typically includes a cash</p>
+            <p>register, barcode scanner, and card payment system, while the software handles invoicing, reporting,</p>
+            <p>and customer data. POS systems help streamline operations and improve efficiency for retail stores,</p>
+            <p>restaurants, and other service-based businesses.</p>
         </div>
-    </section>
+    </div>
+
+</section>
+<section id="HtmlActivities">
+    <a href="HtmlActivities" class="arrow"><img src="img/Arrow.png" class="icon1"></a>
+    <p class="heading-p">HTML</p>
+    <h1 class="heading">Activities</h1>
+    <div class="container htmlactivities-container">
+    <div class="html-activities">
+        <ul>
+            <li><a href="html/FashionBlog/index.html">Fashion Blog</a></li>
+            <li><a href="OliviaWoodruff/woodruff_portfolio/woodruff_portfolio.html">Woodruff Portfolio</a></li>
+            <li><a href="MediaQuery/index.html">Media Query</a></li>
+        </ul>
+    </div>
+</div>
+</section>
+<section id="Contact">
+    <a href="Contact" class="arrow"><img src="img/Arrow.png" class="icon1"></a>
+    <p class="heading-p">Get in Touch</p>
+    <h1 class="heading">Contact me</h1>
+    <div class="contact-container container">
+        <div class="email">
+            <img src="img/email.png" class="icon1">
+            <a href=""><h5>saikeeeeen@gmail.com</h5></a>
+        </div>
+        <div class="facebook">
+            <img src="img/Facebook.png" class="icon1">
+            <a href=""><h5>Facebook</h5></a>
+    </div>
+</section>
+<footer>
+    <ul class="nav-links">
+        <li><a href="#About">About</a></li>
+        <li><a href="#Experiences">Experiences</a></li>
+        <li><a href="#Projects">Project</a></li>
+        <li><a href="#HtmlActivities">HTML Activities</a></li>
+        <li><a href="#Contact">Contact</a></li>
+    </ul>
+    <p>&copy; Copyright from Ken Baltazar || All Rights Reserved.</p>
+</footer>
 </body>
 </html>
