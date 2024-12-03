@@ -17,6 +17,7 @@
                 <li><a href="#Experiences">Experience</a></li>
                 <li><a href="#Projects">Project</a></li>
                 <li><a href="#HtmlActivities">HTML Activities</a></li>
+                <li><a href="#Weather">Weather API</a></li>
                 <li><a href="#Contact" class="btn btn-dark">Contact </a></li>
             </ul>
         </div>
@@ -191,6 +192,20 @@
     </div>
 </div>
 </section>
+<section id="Weather">
+    <a href="#Weather" class="arrow"><img src="img/Arrow.png" class="icon1"></a>
+    <p class="heading-p">Check the Weather</p>
+    <h1 class="heading">Weather Information</h1>
+    <div class="container weather-container">
+        <div>
+            <h2>Current Weather</h2>
+            <p><strong>City:</strong> <span id="weather_city">--</span></p>
+            <p><strong>Temperature:</strong> <span id="weather_temperature">--</span></p>
+            <p><strong>Condition:</strong> <span id="weather_condition">--</span></p>
+            <button onclick="callAPI()" class="btn">Get Weather</button>
+        </div>
+    </div>
+</section>
 <section id="Contact">
     <a href="Contact" class="arrow"><img src="img/Arrow.png" class="icon1"></a>
     <p class="heading-p">Get in Touch</p>
@@ -215,5 +230,6 @@
     </ul>
     <p>&copy; Copyright from Ken Baltazar || All Rights Reserved.</p>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
